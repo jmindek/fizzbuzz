@@ -11,5 +11,9 @@
   [& rest]
   (let [numbers (or rest (range 1 101))]
     (if (> (count numbers) 1)
-      numbers
+      (map compute numbers)
       (compute (first numbers)))))
+
+(defn -main
+  []
+  (println (fizz-buzz)))
