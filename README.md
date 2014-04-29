@@ -8,12 +8,15 @@ My goals are
 
 ### Java
 + Pre-reqs: Java 1.6+
-+ To run: cd java/bin;java com.jmindek.fizzbuzz.FizzBuzz
++ To run:
+ + cd java/src/com
+ + javac com/jmindek/fizzbuzz/FizzBuzz.java
+ + java com.jmindek.fizzbuzz.FizzBuzz
 
 ### Clojure
 + Pre-reqs: Java 1.6+, Leiningen
 + To run: cd clojure;lein run
 
 ### nodeJS
-+ Pre-reqs: nodeJS
-+ To run:
++ TODO
+
